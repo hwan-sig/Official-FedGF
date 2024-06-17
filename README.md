@@ -13,7 +13,7 @@ This repository contains the official implementation of
 - The code runs with WANDB. For setting up your profile, we refer you to the [quickstart documentation](https://docs.wandb.ai/quickstart). 
 - WANDB MODE is set to "online" by default.
 - If you set `args.wandb_project_name` as `debug`, WANDB will be 'disabled'.
-- You also can switch to "offline" [Here](https://github.com/hwan-sig/Official-FedGF/master/tools/main.py#L32).
+- You also can switch to "offline" [Here](https://github.com/hwan-sig/Official-FedGF/blob/main/tools/main.py#L32).
 
 ## Datasets
 - Overview: Image Dataset based on [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html) and [Federated Vision Datasets](https://github.com/google-research/google-research/tree/master/federated_vision_datasets)
