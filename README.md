@@ -4,6 +4,8 @@ This repository contains the official implementation of
 
 > Taehwan Lee and Sung Whan Yoon, [Rethinking the Flat Minima Searching in Federated Learning](https://openreview.net/pdf?id=6TM62kpI5c), International Conference on Machine Learning (ICML) 2024.
 
+We refer to the [FedLab](https://github.com/SMILELab-FL/FedLab) to create our project.
+
 ## Setup
 
 ### Environment
