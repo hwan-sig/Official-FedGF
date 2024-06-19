@@ -4,12 +4,12 @@ This repository contains the official implementation of
 
 > Taehwan Lee and Sung Whan Yoon, [Rethinking the Flat Minima Searching in Federated Learning](https://openreview.net/pdf?id=6TM62kpI5c), International Conference on Machine Learning (ICML) 2024.
 
-We refer to the [FedLab](https://github.com/SMILELab-FL/FedLab) to create our project.
+We refer to the [FedLab](https://github.com/SMILELab-FL/FedLab) for creating our project.
 
 ## Setup
 
 ### Environment
-- install conda environment (prederred): `conda env create -f environment.yaml`
+- install conda environment (preferred): `conda env create -f environment.yaml`
 
 ### Weights and Biases
 - The code runs with WANDB. For setting up your profile, we refer you to the [quickstart documentation](https://docs.wandb.ai/quickstart). 
@@ -22,8 +22,8 @@ We refer to the [FedLab](https://github.com/SMILELab-FL/FedLab) to create our pr
 - We store the json file that distribute the images with Dirichlet's distribution in `tools/json_data`.
 - 100 users have 500 images each. Different $\alpha$ value is possible in Dirichlet's distribution.
 
-## Running expemiments
-Example command can be found in `tools/run.sh`
+## Running experiments
+An example command can be found in `tools/run.sh`
 ```shell
 cd tools/
 chmod +x run.sh
@@ -33,11 +33,9 @@ chmod +x run.sh
 ## Bibtex
 ```
 @inproceedings{
-lee2024rethinking,
-title={Rethinking the Flat Minima Searching in Federated Learning},
-author={Taehwan Lee and Sung Whan Yoon},
-booktitle={Forty-first International Conference on Machine Learning},
-year={2024},
-url={https://openreview.net/forum?id=6TM62kpI5c}
+  leerethinking,
+  title={Rethinking the Flat Minima Searching in Federated Learning},
+  author={Lee, Taehwan and Yoon, Sung Whan},
+  booktitle={Forty-first International Conference on Machine Learning}
 }
 ```
