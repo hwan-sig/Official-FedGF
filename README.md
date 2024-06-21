@@ -23,11 +23,11 @@ We refer to the [FedLab](https://github.com/SMILELab-FL/FedLab) for creating our
 - 100 users have 500 images each. Different $\alpha$ value is possible in Dirichlet's distribution.
 
 ## Running experiments
-An example command can be found in `tools/run.sh`
+An example command can be found in `tools/experiments`
 ```shell
-cd tools/
-chmod +x run.sh
-./run.sh
+cd tools/experiments
+chmod +x cifar.sh
+./cifar.sh
 ```
 
 ## Bibtex
